@@ -64,6 +64,12 @@ body {
   cursor: pointer;
 }
 
+.main__header{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+
 .header__left__doc__name {
   background-color: white;
   display: flex;
@@ -76,31 +82,104 @@ body {
 }
 .name__file__name {
   display: flex;
-  gap: .4rem;
   font-size: 20px;
   align-items: center;
+}
+.star__doc {
+  margin-left: -4.5rem;
+  margin-bottom: .1rem;
+}
+#document__name {
+  border: none;
+  font-size: 1.3rem;
 }
 .functionality__list__header {
   display: flex;
   gap: 2rem;
   margin-top: -2.1rem;
 }
+.functionality__list__header > div > p:hover {
+  background-color: rgb(238, 238, 238);
+  cursor: pointer;
+}
+
+.functionality__list__header > div > div {
+  margin-top: -.2rem;
+}
 
 .floating__lists1 {
   display: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: white;
   z-index: 2;
   top: 4.9rem;
   left: 5.3rem;
   padding-top: 0.5rem;
 }
 .floating__lists1 > p {
+  width: 15rem;
+  padding: 0.1rem 0.5rem;
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.floating__lists2 > p {
   width: 10rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
+  display: flex;
+  justify-content: space-between;
 }
+.floating__lists3 > p {
+  width: 15rem;
+  padding: 0.1rem 0.5rem;
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.floating__lists4 > p {
+  width: 15rem;
+  padding: 0.1rem 0.5rem;
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.floating__lists5 > p {
+  width: 17rem;
+  padding: 0.1rem 0.5rem;
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.floating__lists6 > p {
+  width: 17rem;
+  padding: 0.1rem 0.5rem;
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.floating__lists7 > p {
+  width: 12rem;
+  padding: 0.1rem 0.5rem;
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.floating__lists8 > p {
+  width: 16rem;
+  padding: 0.1rem 0.5rem;
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.floating__lists8 > input {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  margin-left: .4rem;
+}
+
 .floating__lists1 > p:hover {
   background-color: rgb(226, 242, 247);
   scale: 1.01;
@@ -115,14 +194,14 @@ body {
   display: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: white;
   z-index: 2;
   top: 4.9rem;
   left: 8.7rem;
   padding-top: 0.5rem;
 }
 .floating__lists2 > p {
-  width: 11rem;
+  width: 15rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
 }
@@ -140,14 +219,13 @@ body {
   display: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: white;
   z-index: 2;
   top: 4.9rem;
   left: 12.5rem;
   padding-top: 0.5rem;
 }
 .floating__lists3 > p {
-  width: 11rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
 }
@@ -165,14 +243,13 @@ body {
   display: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: white;
   z-index: 2;
   top: 4.9rem;
   left: 16.6rem;
   padding-top: 0.5rem;
 }
 .floating__lists4 > p {
-  width: 11rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
 }
@@ -190,14 +267,13 @@ body {
   display: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: white;
   z-index: 2;
   top: 4.9rem;
   left: 21rem;
   padding-top: 0.5rem;
 }
 .floating__lists5 > p {
-  width: 11rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
 }
@@ -215,14 +291,13 @@ body {
   display: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: white;
   z-index: 2;
   top: 4.9rem;
   left: 26rem;
   padding-top: 0.5rem;
 }
 .floating__lists6 > p {
-  width: 11rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
 }
@@ -240,14 +315,13 @@ body {
   display: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: white;
   z-index: 2;
   top: 4.9rem;
   left: 30rem;
   padding-top: 0.5rem;
 }
 .floating__lists7 > p {
-  width: 11rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
 }
@@ -265,14 +339,13 @@ body {
   display: none;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   position: absolute;
-  background-color: #f3f3f3;
+  background-color: white;
   z-index: 2;
   top: 4.9rem;
   left: 36.4rem;
   padding-top: 0.5rem;
 }
 .floating__lists8 > p {
-  width: 11rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
 }
@@ -283,4 +356,33 @@ body {
 .functionality__list__header > :nth-child(8):hover .floating__lists8 {
   cursor: pointer;
   display: block;
+}
+
+.header__right__doc__share {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+
+/* Header right share section */
+.header__right__doc__share *:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.header__right__doc__share > button {
+  background-color: rgb(203, 237, 253);
+  padding: .7rem 1.2rem;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  gap: .5rem;
+}
+.header__right__doc__share > button:hover {
+  background-color: rgb(121, 151, 252);
+  color: white;
 }
