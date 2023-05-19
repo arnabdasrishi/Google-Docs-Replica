@@ -132,7 +132,7 @@ body {
   justify-content: space-between;
 }
 .floating__lists3 > p {
-  width: 15rem;
+  width: 21rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
   display: flex;
@@ -201,7 +201,7 @@ body {
   padding-top: 0.5rem;
 }
 .floating__lists2 > p {
-  width: 15rem;
+  width: 19rem;
   padding: 0.1rem 0.5rem;
   margin-top: -0.2rem;
 }

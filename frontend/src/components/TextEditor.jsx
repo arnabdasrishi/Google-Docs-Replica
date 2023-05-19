@@ -3,6 +3,7 @@ import Quill from "quill";
 import "quill/dist/quill.snow.css";
 import DocumentPageHeader from "./DocumentPageHeader";
 
+
 const TOOLBAR_OPTIONS = [
   ["bold", "italic", "underline", "strike"], // toggled buttons
   ["blockquote", "code-block"],
